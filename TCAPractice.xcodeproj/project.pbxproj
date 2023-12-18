@@ -23,6 +23,7 @@
 		242D9A5F2B30FA320008FE16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		242D9A662B30FA5A0008FE16 /* TCAPracticeCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TCAPracticeCore; sourceTree = "<group>"; };
 		24B4E2AB2B30FFA3008586A3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		24B4E2AF2B3103F4008586A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		242D9A4B2B30FA310008FE16 = {
 			isa = PBXGroup;
 			children = (
+				24B4E2AF2B3103F4008586A3 /* README.md */,
 				24B4E2AB2B30FFA3008586A3 /* .swiftlint.yml */,
 				242D9A662B30FA5A0008FE16 /* TCAPracticeCore */,
 				242D9A562B30FA310008FE16 /* TCAPractice */,

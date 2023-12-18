@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  TCAPractice
-//
-//  Created by fnord on 12/18/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {

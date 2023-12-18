@@ -1,10 +1,6 @@
-//
-//  TCAPracticeApp.swift
-//  TCAPractice
-//
-//  Created by fnord on 12/18/23.
-//
-
+// Universal global import
+// Causes all files in TCAPractice to import TCAPracticeCore
+@_exported import TCAPracticeCore
 import SwiftUI
 
 @main

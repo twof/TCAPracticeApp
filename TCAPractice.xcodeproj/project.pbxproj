@@ -11,6 +11,7 @@
 		242D9A5A2B30FA310008FE16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D9A592B30FA310008FE16 /* ContentView.swift */; };
 		242D9A5C2B30FA320008FE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242D9A5B2B30FA320008FE16 /* Assets.xcassets */; };
 		242D9A602B30FA320008FE16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242D9A5F2B30FA320008FE16 /* Preview Assets.xcassets */; };
+		24B4E2AE2B310068008586A3 /* TCAPracticeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 24B4E2AD2B310068008586A3 /* TCAPracticeCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		242D9A5B2B30FA320008FE16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		242D9A5D2B30FA320008FE16 /* TCAPractice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCAPractice.entitlements; sourceTree = "<group>"; };
 		242D9A5F2B30FA320008FE16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		242D9A662B30FA5A0008FE16 /* TCAPracticeCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TCAPracticeCore; sourceTree = "<group>"; };
+		24B4E2AB2B30FFA3008586A3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B4E2AE2B310068008586A3 /* TCAPracticeCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +40,11 @@
 		242D9A4B2B30FA310008FE16 = {
 			isa = PBXGroup;
 			children = (
+				24B4E2AB2B30FFA3008586A3 /* .swiftlint.yml */,
+				242D9A662B30FA5A0008FE16 /* TCAPracticeCore */,
 				242D9A562B30FA310008FE16 /* TCAPractice */,
 				242D9A552B30FA310008FE16 /* Products */,
+				24B4E2AC2B310068008586A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +76,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		24B4E2AC2B310068008586A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +99,9 @@
 			dependencies = (
 			);
 			name = TCAPractice;
+			packageProductDependencies = (
+				24B4E2AD2B310068008586A3 /* TCAPracticeCore */,
+			);
 			productName = TCAPractice;
 			productReference = 242D9A542B30FA310008FE16 /* TCAPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -97,7 +114,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					242D9A532B30FA310008FE16 = {
 						CreatedOnToolsVersion = 15.0;
@@ -181,6 +198,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -242,6 +260,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -269,6 +288,7 @@
 				CODE_SIGN_ENTITLEMENTS = TCAPractice/TCAPractice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TCAPractice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -290,7 +310,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.twof.TCAPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +326,7 @@
 				CODE_SIGN_ENTITLEMENTS = TCAPractice/TCAPractice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TCAPractice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -326,7 +348,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.twof.TCAPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,6 +378,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24B4E2AD2B310068008586A3 /* TCAPracticeCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TCAPracticeCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 242D9A4C2B30FA310008FE16 /* Project object */;
 }

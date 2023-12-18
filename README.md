@@ -9,3 +9,4 @@ Examples:
 ## Contributing
 - SwiftLint rules are enforced
 - Do not import any UI frameworks to TCAPracticeCore
+- Do not commit directly to master. All features should be done in their own branch, and then merged to master via PR.

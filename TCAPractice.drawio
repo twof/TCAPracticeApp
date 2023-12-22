@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T01:53:29.214Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lS1fV1E-txyCgLGiKW62" version="22.1.11" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-22T05:45:29.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CiIyAYjZJn97Pol1yJVy" version="22.1.11" type="device">
   <diagram name="Page-1" id="fmUbj85oui5jkqOJb9Qk">
-    <mxGraphModel dx="1920" dy="3315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1594" dy="2306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,160 +28,160 @@
         <mxCell id="9AutItBFP17Fh7JO7_JK-10" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Baseline TCA Module&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="-20" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="155" width="420" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-2" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;SwiftUI Quiz&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-2" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;SwiftUI Quiz&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1092.5" y="80" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-4" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-4" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="550" width="380" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="190" width="360" height="330" as="geometry" />
+        <mxCell id="7JcIEXTM3-_tCm08odfI-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="185" width="360" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-7" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-7" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
           <mxGeometry x="1260" y="340" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-10" value="Users will double tap to select the correct view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-10" value="Users will double tap to select the correct view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1440" y="220" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-11" value="Swipe left on views if you don&#39;t think they match the code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-11" value="Swipe left on views if you don&#39;t think they match the code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1440" y="310" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-13" value="Swipe right if you think the view matches the code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-13" value="Swipe right if you think the view matches the code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1452.5" y="390" width="105" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-14" value="There will be four possible views and then they will be told to reset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-14" value="There will be four possible views and then they will be told to reset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1456.25" y="470" width="97.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-15" value="If users select the wrong thing, tell them they&#39;re wrong by flashing a red X on screen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-15" value="If users select the wrong thing, tell them they&#39;re wrong by flashing a red X on screen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1590" y="230" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="185" width="420" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-18" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;User Selects Wrong Answer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-18" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;User Selects Wrong Answer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1862.5" y="110" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-19" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-19" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1760" y="580" width="380" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1770" y="220" width="360" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-21" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-21" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1920" y="370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
           <mxGeometry x="2030" y="370" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-23" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-23" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1790" y="240" width="320" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-24" value="Users will be given infinite tries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-24" value="Users will be given infinite tries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1590" y="330" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-25" value="Show some indication that users were correct when they select the correct answer. Fireworks, something green, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-25" value="Show some indication that users were correct when they select the correct answer. Fireworks, something green, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1585" y="410" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="1095" width="420" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-27" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Buggy Code Quiz&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-27" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Buggy Code Quiz&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1092.5" y="1020" width="187.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-28" value="Buggy Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-28" value="Buggy Code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="1490" width="380" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="1130" width="360" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-30" value="Description of Error In Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-30" value="Description of Error In Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-31" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-31" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1280" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-37" value="Stretch goal: Tell people why their answer is wrong" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-37" value="Stretch goal: Tell people why their answer is wrong" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1450" y="550" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-38" value="Very similar flow to the SwiftUI Quiz, buggy code is displayed on the bottom and users are given 4 possible reasons why the code is buggy. They need to select the correct one using the same flow as above" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-38" value="Very similar flow to the SwiftUI Quiz, buggy code is displayed on the bottom and users are given 4 possible reasons why the code is buggy. They need to select the correct one using the same flow as above" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1400" y="1140" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-39" value="Different kinds of questions are interleaved with one another" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-39" value="Different kinds of questions are interleaved with one another" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1410" y="1270" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-40" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-40" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="1730" y="1095" width="420" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-41" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Settings/Stats&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-41" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Settings/Stats&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1852.5" y="1040" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-46" value="SwiftUI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-46" value="SwiftUI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1802.5" y="1190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/toggle-off-128.png" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/toggle-off-128.png" parent="1" vertex="1">
           <mxGeometry x="2010" y="1170.5" width="69" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-54" value="Debugging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-54" value="Debugging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1802.5" y="1280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-55" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/toggle-off-128.png" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-55" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-6/24/toggle-off-128.png" parent="1" vertex="1">
           <mxGeometry x="2010" y="1260.5" width="69" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-56" value="Users can decide what kind of questions they want in their quiz" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-56" value="Users can decide what kind of questions they want in their quiz" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1140.5" width="140" height="89.5" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2270" y="170" width="420" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-61" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Quiz Layout V2&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-61" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;Quiz Layout V2&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2371.25" y="100" width="217.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-62" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-62" value="Code" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2290" y="580" width="380" height="325" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-63" value="View" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-63" value="View" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2300" y="240" width="360" height="325" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-65" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-65" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
           <mxGeometry x="2560" y="387.5" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-67" value="Settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-67" value="Settings" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2320" y="185" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-68" value="In order to get the settings tab where we want it, we may need to hide time, battery, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-68" value="In order to get the settings tab where we want it, we may need to hide time, battery, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2740" y="180" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-69" value="Hamburger menu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-69" value="Hamburger menu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2755" y="115" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-71" value="Tapping hamburger menu will bring up a sheet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-71" value="Tapping hamburger menu will bring up a sheet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2730" y="270" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-72" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Stats&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-72" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Stats&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1780" y="1390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-74" value="Correct: 15/20" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-74" value="Correct: 15/20" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1762.5" y="1440" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-76" value="Questions answered per day chart over the past week" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-76" value="Questions answered per day chart over the past week" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1770" y="1480" width="340" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-77" value="There could be two separate colors used on the chart to indicate different kinds of questions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-77" value="There could be two separate colors used on the chart to indicate different kinds of questions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1505" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-78" value="Show how many questions out of the last 20 answered were correct on the first try" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-78" value="Show how many questions out of the last 20 answered were correct on the first try" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2210" y="1437.5" width="160" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-79" value="Correct" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-79" value="Correct" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2570" y="185" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7JcIEXTM3-_tCm08odfI-82" value="If we don&#39;t put the score up next to the notch, then we could put it in the top corner of the answer box" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7JcIEXTM3-_tCm08odfI-82" value="If we don&#39;t put the score up next to the notch, then we could put it in the top corner of the answer box" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2755" y="325" width="140" height="80" as="geometry" />
         </mxCell>
       </root>

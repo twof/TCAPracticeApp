@@ -12,6 +12,10 @@
 		242D9A5C2B30FA320008FE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242D9A5B2B30FA320008FE16 /* Assets.xcassets */; };
 		242D9A602B30FA320008FE16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242D9A5F2B30FA320008FE16 /* Preview Assets.xcassets */; };
 		24B4E2AE2B310068008586A3 /* TCAPracticeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 24B4E2AD2B310068008586A3 /* TCAPracticeCore */; };
+		3309620D2B35581100EC0B73 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309620C2B35581100EC0B73 /* Question.swift */; };
+		330962122B355DA200EC0B73 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330962112B355DA200EC0B73 /* QuestionViewModel.swift */; };
+		330962142B35614900EC0B73 /* QuizFeatureReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330962132B35614900EC0B73 /* QuizFeatureReducer.swift */; };
+		330962162B356B7C00EC0B73 /* MockedQuestions.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 330962152B356B7C00EC0B73 /* MockedQuestions.JSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		242D9A662B30FA5A0008FE16 /* TCAPracticeCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TCAPracticeCore; sourceTree = "<group>"; };
 		24B4E2AB2B30FFA3008586A3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		24B4E2AF2B3103F4008586A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3309620C2B35581100EC0B73 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		330962112B355DA200EC0B73 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		330962132B35614900EC0B73 /* QuizFeatureReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFeatureReducer.swift; sourceTree = "<group>"; };
+		330962152B356B7C00EC0B73 /* MockedQuestions.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockedQuestions.JSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +69,15 @@
 		242D9A562B30FA310008FE16 /* TCAPractice */ = {
 			isa = PBXGroup;
 			children = (
+				330962112B355DA200EC0B73 /* QuestionViewModel.swift */,
+				3309620E2B35581B00EC0B73 /* DataModel */,
 				242D9A572B30FA310008FE16 /* TCAPracticeApp.swift */,
 				242D9A592B30FA310008FE16 /* ContentView.swift */,
 				242D9A5B2B30FA320008FE16 /* Assets.xcassets */,
 				242D9A5D2B30FA320008FE16 /* TCAPractice.entitlements */,
 				242D9A5E2B30FA320008FE16 /* Preview Content */,
+				330962132B35614900EC0B73 /* QuizFeatureReducer.swift */,
+				330962152B356B7C00EC0B73 /* MockedQuestions.JSON */,
 			);
 			path = TCAPractice;
 			sourceTree = "<group>";
@@ -83,6 +95,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3309620E2B35581B00EC0B73 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3309620C2B35581100EC0B73 /* Question.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +168,7 @@
 			files = (
 				242D9A602B30FA320008FE16 /* Preview Assets.xcassets in Resources */,
 				242D9A5C2B30FA320008FE16 /* Assets.xcassets in Resources */,
+				330962162B356B7C00EC0B73 /* MockedQuestions.JSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3309620D2B35581100EC0B73 /* Question.swift in Sources */,
+				330962142B35614900EC0B73 /* QuizFeatureReducer.swift in Sources */,
 				242D9A5A2B30FA310008FE16 /* ContentView.swift in Sources */,
+				330962122B355DA200EC0B73 /* QuestionViewModel.swift in Sources */,
 				242D9A582B30FA310008FE16 /* TCAPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

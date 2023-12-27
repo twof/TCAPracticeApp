@@ -1,17 +1,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  @State var show = false
+  var body: some View {
+    NavigationStack {
+      QuestionView()
     }
+    .frame(maxWidth: .infinity, maxHeight: .infinity)
+    .background(Color(white: 0.85).gradient)
+  }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
 }

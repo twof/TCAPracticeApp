@@ -8,6 +8,6 @@
 import Foundation
 
 struct QuestionViewModel: Equatable {
-  var question: String
-  var answerDisplayed: Answer
+  var question: String = ""
+  var answerDisplayed: Answer? = nil
 }

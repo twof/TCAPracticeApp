@@ -15,7 +15,7 @@
 		3309620D2B35581100EC0B73 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309620C2B35581100EC0B73 /* Question.swift */; };
 		330962122B355DA200EC0B73 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330962112B355DA200EC0B73 /* QuestionViewModel.swift */; };
 		330962142B35614900EC0B73 /* QuizFeatureReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330962132B35614900EC0B73 /* QuizFeatureReducer.swift */; };
-		330962162B356B7C00EC0B73 /* MockedQuestions.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 330962152B356B7C00EC0B73 /* MockedQuestions.JSON */; };
+		330962162B356B7C00EC0B73 /* MockedQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 330962152B356B7C00EC0B73 /* MockedQuestions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		3309620C2B35581100EC0B73 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		330962112B355DA200EC0B73 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 		330962132B35614900EC0B73 /* QuizFeatureReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFeatureReducer.swift; sourceTree = "<group>"; };
-		330962152B356B7C00EC0B73 /* MockedQuestions.JSON */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockedQuestions.JSON; sourceTree = "<group>"; };
+		330962152B356B7C00EC0B73 /* MockedQuestions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockedQuestions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				242D9A5D2B30FA320008FE16 /* TCAPractice.entitlements */,
 				242D9A5E2B30FA320008FE16 /* Preview Content */,
 				330962132B35614900EC0B73 /* QuizFeatureReducer.swift */,
-				330962152B356B7C00EC0B73 /* MockedQuestions.JSON */,
+				330962152B356B7C00EC0B73 /* MockedQuestions.json */,
 			);
 			path = TCAPractice;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			files = (
 				242D9A602B30FA320008FE16 /* Preview Assets.xcassets in Resources */,
 				242D9A5C2B30FA320008FE16 /* Assets.xcassets in Resources */,
-				330962162B356B7C00EC0B73 /* MockedQuestions.JSON in Resources */,
+				330962162B356B7C00EC0B73 /* MockedQuestions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

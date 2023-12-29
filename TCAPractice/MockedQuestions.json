@@ -1,0 +1,96 @@
+[
+    {
+      "id": 1,
+      "codeSnippet": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n}",
+      "answers": [
+        {
+          "id": 1,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n}",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.blue)\n}",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.red)\n}",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.green)\n}",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "codeSnippet": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n}",
+      "answers": [
+        {
+          "id": 1,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n}",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.blue)\n}",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.red)\n}",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.green)\n}",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "codeSnippet": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n}",
+      "answers": [
+        {
+          "id": 1,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n}",
+          "correct": true
+        },
+        {
+          "id": 2,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.blue)\n}",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.red)\n}",
+          "correct": false
+        },
+        {
+          "id": 4,
+          "type": "swiftUI",
+          "content": "VStack {\n    Text(\"Welcome to SwiftUI\")\n        .font(.headline)\n    Button(\"Click Me\") {\n        print(\"Button tapped\")\n    }\n.background(Color.green)\n}",
+          "correct": false
+        }
+      ]
+    },
+
+
+]
+
+

@@ -28,6 +28,7 @@ struct QuizFeatureReducer {
     case swipe(_ type: SwipeType)
   }
 
+  @MainActor
   var body: some Reducer<State, Action> {
     Reduce { state, action in
       switch action {

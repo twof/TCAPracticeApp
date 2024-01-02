@@ -49,7 +49,6 @@ public struct QuizFeatureReducer {
         return .send(.nextQuestion())
 
       case .nextQuestion:
-        //next question should be different from the previous one if it's answered wrong
         guard !state.allQuestions.isEmpty,
               let currentQuestion = state.allQuestions.randomElement(),
               let displayedAnswer = currentQuestion.answers.randomElement() else { return .none }

@@ -1,57 +1,65 @@
 import SwiftUI
+import TCAPracticeCore
 import ComposableArchitecture
 
 struct ContentView: View {
 
-  let store = Store(initialState: QuizFeatureReducer.State(currentQuestionViewModel: QuestionViewModel()), reducer: {QuizFeatureReducer()})
-  @State private var offset: CGFloat = 0
+  let store: StoreOf<QuizFeatureReducer>
 
     var body: some View {
       WithViewStore(store, observe: {$0}) { viewStore in
         GeometryReader(content: { geometry in
           cardView(viewStore)
-            .offset(x: offset)
+            .offset(x: viewStore.offset)
             .gesture(
               DragGesture()
                 .onChanged({ gesture in
-                  offset = gesture.translation.width
+                  viewStore.send(.changeOffset(gesture.translation.width))
                 })
                 .onEnded({ _ in
-                  if offset < -geometry.size.width * 0.5 {
-                    offset = -geometry.size.width
-                    viewStore.send(.nextQuestion(viewStore.currentQuestion))
-                    Task {
-                      try? await Task.sleep(nanoseconds: 200000000)
-                      offset = 0
-                    }
+                  if viewStore.offset < -geometry.size.width * 0.5 {
+                    viewStore.send(.swipe(.left, -geometry.size.width))
+                  } else if viewStore.offset > geometry.size.width * 0.5 {
+                    viewStore.send(.swipe(.right, geometry.size.width))
                   }
                 })
             )
             .task {
-              viewStore.send(.loadAllQuestions)
+              //tell task to cancel if you navigate away from this view
+              await viewStore.send(.loadAllQuestions).finish()
             }
         })
       }
     }
 
   func cardView(_ viewStore: ViewStore<QuizFeatureReducer.State, QuizFeatureReducer.Action>) -> some View {
-      VStack(spacing: 16) {
-        Text(viewStore.currentQuestionViewModel.answerDisplayed?.content ?? "")
+    VStack(spacing: 16) {
+
+      if let questionId = viewStore.currentQuestionViewModel?.questionId,
+         let answers = answerViewsDict[questionId],
+         let id = viewStore.currentQuestionViewModel?.answerDisplayed.id,
+         let answer = answers[id] {
+        AnyView(answer)
           .frame(maxWidth: .infinity, maxHeight: .infinity)
           .background {
             RoundedRectangle(cornerRadius: 12).fill(Color.blue)
           }
+          .padding()
+      }
 
-        Text(viewStore.currentQuestionViewModel.question)
+      if let question = viewStore.currentQuestionViewModel?.question {
+        Text(question)
           .frame(maxWidth: .infinity, maxHeight: .infinity)
           .background {
             RoundedRectangle(cornerRadius: 12).fill(Color.red)
           }
+          .padding()
       }
-      .padding()
+    }
   }
 }
 
 #Preview {
-    ContentView()
+  let store = Store(initialState: QuizFeatureReducer.State(), reducer: {QuizFeatureReducer()})
+    return ContentView(store: store)
 }

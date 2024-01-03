@@ -37,7 +37,7 @@ public struct QuizFeatureReducer {
   public enum Action: Equatable {
     case loadAllQuestions
     case nextQuestion(_ previousQuestion: Question? = nil)
-    case swipe(_ type: SwipeType, _ offset: CGFloat)
+    case swipe(_ geometrySize: CGFloat)
     case changeOffset(_ offset: CGFloat)
   }
 
@@ -60,25 +60,9 @@ public struct QuizFeatureReducer {
         state.offset = offset
         return .none
 
-      case .swipe(let type, let offset):
-        state.offset = offset
-        switch type {
-        case .right:
-          if let currentQuestion = state.currentQuestion,
-             state.currentQuestionViewModel?.answerDisplayed.correct == true,
-             let index = state.allQuestions.firstIndex(of: currentQuestion) {
-            state.allQuestions.remove(at: index)
-            print("correct: this is the answer we are looking for")
-          }
-          print("wrong: this is the answer we are looking for")
-          //to capture state( make a immutable copy of the state when the closure is created)
-          return .run { [state] send in
-            try await Task.sleep(for: .seconds(0.5))
-            await send(.changeOffset(0))
-            await send(.nextQuestion(state.currentQuestion))
-          }
-
-        case .left:
+      case .swipe(let geometry):
+        if state.offset < -geometry * 0.5 {
+          state.offset = geometry
           if let currentQuestion = state.currentQuestion,
             state.currentQuestionViewModel?.answerDisplayed.correct != true,
              let index = state.allQuestions.firstIndex(of: currentQuestion) {
@@ -94,8 +78,23 @@ public struct QuizFeatureReducer {
             await send(.changeOffset(0))
             await send(.nextQuestion(state.currentQuestion))
           }
+        } else if state.offset > geometry * 0.5 {
+          state.offset = geometry
+          if let currentQuestion = state.currentQuestion,
+             state.currentQuestionViewModel?.answerDisplayed.correct == true,
+             let index = state.allQuestions.firstIndex(of: currentQuestion) {
+            state.allQuestions.remove(at: index)
+            print("correct: this is the answer we are looking for")
+          }
+          print("wrong: this is the answer we are looking for")
+          //to capture state( make a immutable copy of the state when the closure is created)
+          return .run { [state] send in
+            try await Task.sleep(for: .seconds(0.5))
+            await send(.changeOffset(0))
+            await send(.nextQuestion(state.currentQuestion))
+          }
         }
-
+        return .none
       }
     }
   }

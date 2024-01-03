@@ -17,11 +17,7 @@ struct ContentView: View {
                   viewStore.send(.changeOffset(gesture.translation.width))
                 })
                 .onEnded({ _ in
-                  if viewStore.offset < -geometry.size.width * 0.5 {
-                    viewStore.send(.swipe(.left, -geometry.size.width))
-                  } else if viewStore.offset > geometry.size.width * 0.5 {
-                    viewStore.send(.swipe(.right, geometry.size.width))
-                  }
+                  viewStore.send(.swipe(geometry.size.width))
                 })
             )
             .task {

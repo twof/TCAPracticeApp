@@ -3,4 +3,100 @@
    uuid = "47CA88B7-39DD-4117-ABF5-95909E1DB33A"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0299EEFB-4975-4539-AB8B-A7B9CEC0E776"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPracticeCore/Sources/TCAPracticeCore/QuizFeatureReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7FECBBA-BD11-4B7E-A54C-0E8562F3D4EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCAPracticeCore/Sources/TCAPracticeCore/QuizFeatureReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F7FECBBA-BD11-4B7E-A54C-0E8562F3D4EC - ee95d96ad4abdb16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt;) async throws -&gt; () in closure #1 (inout TCAPracticeCore.QuizFeatureReducer.State, TCAPracticeCore.QuizFeatureReducer.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt; in TCAPracticeCore.QuizFeatureReducer.body.getter : some"
+                  moduleName = "TCAPracticeCoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/Opensource/TCAPracticeApp/TCAPracticeCore/Sources/TCAPracticeCore/QuizFeatureReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "F7FECBBA-BD11-4B7E-A54C-0E8562F3D4EC - 23245a780e7c0e5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt;) async throws -&gt; () in closure #1 (inout TCAPracticeCore.QuizFeatureReducer.State, TCAPracticeCore.QuizFeatureReducer.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt; in TCAPracticeCore.QuizFeatureReducer.body.getter : some"
+                  moduleName = "TCAPracticeCoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/Opensource/TCAPracticeApp/TCAPracticeCore/Sources/TCAPracticeCore/QuizFeatureReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "F7FECBBA-BD11-4B7E-A54C-0E8562F3D4EC - a34ecb1a42201414"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt;) async throws -&gt; () in closure #1 (inout TCAPracticeCore.QuizFeatureReducer.State, TCAPracticeCore.QuizFeatureReducer.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt; in TCAPracticeCore.QuizFeatureReducer.body.getter : some"
+                  moduleName = "TCAPracticeCoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/Opensource/TCAPracticeApp/TCAPracticeCore/Sources/TCAPracticeCore/QuizFeatureReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "F7FECBBA-BD11-4B7E-A54C-0E8562F3D4EC - e35cae8354146d91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt;) async throws -&gt; () in closure #1 (inout TCAPracticeCore.QuizFeatureReducer.State, TCAPracticeCore.QuizFeatureReducer.Action) -&gt; ComposableArchitecture.Effect&lt;TCAPracticeCore.QuizFeatureReducer.Action&gt; in TCAPracticeCore.QuizFeatureReducer.body.getter : some"
+                  moduleName = "TCAPracticeCoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/Opensource/TCAPracticeApp/TCAPracticeCore/Sources/TCAPracticeCore/QuizFeatureReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

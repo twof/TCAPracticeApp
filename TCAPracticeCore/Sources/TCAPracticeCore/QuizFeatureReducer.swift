@@ -62,7 +62,7 @@ public struct QuizFeatureReducer {
 
       case .swipe(let geometry):
         if state.offset < -geometry * 0.5 {
-          state.offset = geometry
+//          state.offset = geometry
           if let currentQuestion = state.currentQuestion,
             state.currentQuestionViewModel?.answerDisplayed.correct != true,
              let index = state.allQuestions.firstIndex(of: currentQuestion) {
@@ -74,12 +74,12 @@ public struct QuizFeatureReducer {
           //the same as the capture state above
           let state = state
           return .run { send in
-            try await Task.sleep(for: .seconds(0.5))
+            try await Task.sleep(for: .seconds(5))
             await send(.changeOffset(0))
             await send(.nextQuestion(state.currentQuestion))
           }
         } else if state.offset > geometry * 0.5 {
-          state.offset = geometry
+//          state.offset = geometry
           if let currentQuestion = state.currentQuestion,
              state.currentQuestionViewModel?.answerDisplayed.correct == true,
              let index = state.allQuestions.firstIndex(of: currentQuestion) {
@@ -89,7 +89,7 @@ public struct QuizFeatureReducer {
           print("wrong: this is the answer we are looking for")
           //to capture state( make a immutable copy of the state when the closure is created)
           return .run { [state] send in
-            try await Task.sleep(for: .seconds(0.5))
+            try await Task.sleep(for: .seconds(5))
             await send(.changeOffset(0))
             await send(.nextQuestion(state.currentQuestion))
           }

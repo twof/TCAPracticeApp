@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T04:28:42.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_SnDu-qg55Vj9v9NKl8g" version="22.1.11" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-22T05:45:29.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CiIyAYjZJn97Pol1yJVy" version="22.1.11" type="device">
   <diagram name="Page-1" id="fmUbj85oui5jkqOJb9Qk">
-    <mxGraphModel dx="768" dy="1986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1594" dy="2306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,13 +38,16 @@
           <mxGeometry x="990" y="550" width="380" height="340" as="geometry" />
         </mxCell>
         <mxCell id="7JcIEXTM3-_tCm08odfI-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="190" width="360" height="330" as="geometry" />
+          <mxGeometry x="1000" y="185" width="360" height="330" as="geometry" />
         </mxCell>
         <mxCell id="7JcIEXTM3-_tCm08odfI-7" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7JcIEXTM3-_tCm08odfI-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
           <mxGeometry x="1260" y="340" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JcIEXTM3-_tCm08odfI-10" value="Users will double tap to select the correct view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="220" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7JcIEXTM3-_tCm08odfI-11" value="Swipe left on views if you don&#39;t think they match the code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1440" y="310" width="130" height="80" as="geometry" />

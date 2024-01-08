@@ -5,7 +5,7 @@ let package = Package(
     name: "TCAPracticeCore",
     platforms: [
       .iOS(.v17),
-      .macOS(.v12)
+      .macOS(.v13)
     ],
     products: [
         .library(

@@ -12,6 +12,8 @@
 		242D9A5C2B30FA320008FE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242D9A5B2B30FA320008FE16 /* Assets.xcassets */; };
 		242D9A602B30FA320008FE16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242D9A5F2B30FA320008FE16 /* Preview Assets.xcassets */; };
 		24B4E2AE2B310068008586A3 /* TCAPracticeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 24B4E2AD2B310068008586A3 /* TCAPracticeCore */; };
+		EE81908E2B48E4C20078FF4A /* WeeklyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81908D2B48E4C20078FF4A /* WeeklyData.swift */; };
+		EE8190912B48E5010078FF4A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8190902B48E5010078FF4A /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		242D9A662B30FA5A0008FE16 /* TCAPracticeCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TCAPracticeCore; sourceTree = "<group>"; };
 		24B4E2AB2B30FFA3008586A3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		24B4E2AF2B3103F4008586A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EE81908D2B48E4C20078FF4A /* WeeklyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyData.swift; sourceTree = "<group>"; };
+		EE8190902B48E5010078FF4A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		242D9A562B30FA310008FE16 /* TCAPractice */ = {
 			isa = PBXGroup;
 			children = (
+				EE81908B2B48E4960078FF4A /* Graph */,
 				242D9A572B30FA310008FE16 /* TCAPracticeApp.swift */,
 				242D9A592B30FA310008FE16 /* ContentView.swift */,
 				242D9A5B2B30FA320008FE16 /* Assets.xcassets */,
@@ -83,6 +88,31 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE81908B2B48E4960078FF4A /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				EE81908F2B48E4E50078FF4A /* View */,
+				EE81908C2B48E4A60078FF4A /* Model */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		EE81908C2B48E4A60078FF4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE81908D2B48E4C20078FF4A /* WeeklyData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE81908F2B48E4E50078FF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE8190902B48E5010078FF4A /* ChartView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +190,8 @@
 			files = (
 				242D9A5A2B30FA310008FE16 /* ContentView.swift in Sources */,
 				242D9A582B30FA310008FE16 /* TCAPracticeApp.swift in Sources */,
+				EE81908E2B48E4C20078FF4A /* WeeklyData.swift in Sources */,
+				EE8190912B48E5010078FF4A /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
